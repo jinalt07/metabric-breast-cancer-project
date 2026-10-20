@@ -1,6 +1,6 @@
-# Identifying Patient Heterogeneity in Breast Cancer Using METABRIC Data
+### Identifying Patient Heterogeneity in Breast Cancer Using METABRIC Data
 
-## Project Overview
+### Project Overview
 
 This project explores patient heterogeneity in breast cancer using unsupervised machine learning applied to gene-expression data from the METABRIC study.
 
@@ -8,7 +8,7 @@ The analysis investigates whether patients can be grouped according to similarit
 
 The project was developed as an independent computational research exercise, with an emphasis on implementing an end-to-end analytical workflow, interpreting results, and evaluating methodological limitations.
 
-## Dataset
+### Dataset
 
 **Source:** METABRIC (Molecular Taxonomy of Breast Cancer International Consortium), accessed through [cBioPortal](https://www.cbioportal.org/).
 
@@ -20,7 +20,7 @@ The analysis uses processed gene-expression measurements alongside patient-level
 
 The original dataset is not included in this repository. It can be obtained from cBioPortal.
 
-## Analytical Workflow
+### Analytical Workflow
 
 The analysis was implemented in Python and organized into seven scripts:
 
@@ -36,7 +36,7 @@ The analysis was implemented in Python and organized into seven scripts:
 
 The workflow combines dimensionality reduction, unsupervised clustering, statistical comparisons, and stability assessment.
 
-## Key Results
+### Key Results
 
 The analysis identified two patient clusters comprising 1,414 and 566 samples.
 
@@ -46,7 +46,7 @@ The findings broadly corresponded to established breast cancer molecular charact
 
 For detailed statistics, visualizations, and interpretation, refer to the research report.
 
-## Repository Structure
+### Repository Structure
 
 ```text
 metabric-breast-cancer-project/
@@ -67,7 +67,7 @@ metabric-breast-cancer-project/
 └── README.md
 ```
 
-## Project Documentation
+### Project Documentation
 
 **Research Report**
 
@@ -85,7 +85,7 @@ Contains PCA visualizations and comparisons of clinical and gene-expression char
 
 Contains the calculated mean-expression differences between clusters.
 
-## Tools and Methods
+### Tools and Methods
 
 - **Language:** Python
 - **Data processing:** pandas, NumPy
@@ -94,7 +94,7 @@ Contains the calculated mean-expression differences between clusters.
 - **Validation:** Adjusted Rand Index (ARI)
 - **Visualization:** Matplotlib and related Python plotting tools
 
-## Reproducibility
+### Reproducibility
 
 To work with the project locally:
 
@@ -107,13 +107,13 @@ To work with the project locally:
 
 The analysis uses fixed random seeds where applicable to support reproducibility. Original and reproduced clustering solutions showed high agreement, with minor assignment differences documented in the research report.
 
-## Scope and Limitations
+### Scope and Limitations
 
 This is an exploratory computational analysis using one publicly available breast cancer cohort. The identified clusters should not be interpreted as newly established molecular subtypes or clinically validated patient classifications.
 
 The project does not evaluate treatment response, survival outcomes, or clinical utility.
 
-## Data Attribution
+### Data Attribution
 
 The METABRIC dataset was originally described by Curtis et al. (2012) and accessed through cBioPortal (Gao et al., 2013).
 
