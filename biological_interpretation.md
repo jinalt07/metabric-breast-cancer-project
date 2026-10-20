@@ -25,24 +25,11 @@ Cluster 0 showed higher average expression of several genes associated with estr
 
 ### Biological Interpretation
 
-Three genes are particularly important for understanding this cluster:
-
-- **ESR1:** Produces estrogen receptor alpha, which allows cells to respond to estrogen and regulate downstream gene expression.
-- **FOXA1:** Helps open regulatory regions of DNA, allowing estrogen receptors to access their target genes.
-- **GATA3:** Supports the differentiation and maintenance of luminal mammary epithelial cells.
-
-Together, ESR1, FOXA1, and GATA3 participate in a regulatory network associated with estrogen-responsive transcription and luminal cell identity.
-
-The higher expression of TFF1, TFF3, AGR3, and other luminal-associated genes provides additional support for this interpretation.
+ESR1, FOXA1, and GATA3 provide a useful framework for interpreting this cluster. ESR1 encodes estrogen receptor alpha; FOXA1 facilitates access to regulatory DNA regions; and GATA3 contributes to luminal epithelial identity. Together, these genes are associated with estrogen-responsive transcriptional programs in breast cancer. The higher expression of TFF1, TFF3, AGR3, and other luminal-associated genes is consistent with this pattern. These associations reflect prior biological knowledge, not mechanisms directly tested in the present analysis (Perou et al., 2000; Sørlie et al., 2001; Parker et al., 2009).
 
 ### Connection with Clinical Findings
 
-- 97.81% of patients in Cluster 0 were ER-positive.
-- 80.90% belonged to the Luminal A or Luminal B molecular subtypes.
-- 37.17% of patients with available tumor-grade information had Grade 3 tumors.
-- Mean age at diagnosis was 63.22 years.
-
-These clinical findings agree with the molecular pattern, suggesting that Cluster 0 predominantly represents tumors with luminal differentiation and estrogen-receptor-associated signaling.
+Cluster 0 was 97.81% ER-positive, and 80.90% of its samples were classified as Luminal A or Luminal B. Among samples with available tumor-grade information, 37.17% were Grade 3. Mean age at diagnosis was 63.22 years. Together, these observations support describing Cluster 0 as predominantly luminal and estrogen-associated, rather than as a single uniform molecular subtype.
 
 ## 3. Cluster 1: Basal-Like, Inflammatory, and Metabolic Characteristics
 
@@ -65,51 +52,38 @@ Cluster 1 showed higher average expression of genes associated with inflammatory
 
 ### Biological Interpretation
 
-The genes elevated in Cluster 1 suggest several potential biological themes:
+Inflammatory-associated genes. S100A8 and S100A9 are associated with inflammatory and immune-related processes. Their higher expression may reflect signals from tumor cells, infiltrating immune cells, or other components of the tumor microenvironment. Bulk tumor expression data cannot distinguish these sources without additional analysis.
 
-**Inflammatory and immune-related processes:** S100A8 and S100A9 are involved in inflammatory signaling. Their higher expression may reflect inflammatory activity within tumors or contributions from immune cells in the surrounding tumor microenvironment.
+Basal-like characteristics. GABRP and BCL11A have been reported in basal-like or triple-negative breast cancer contexts. Their higher expression is consistent with the greater representation of basal-like tumors in Cluster 1, but neither gene alone establishes a subtype classification.
 
-**Basal-like characteristics:** GABRP and BCL11A have been associated with basal-like or triple-negative breast cancer biology. Their expression is consistent with the higher prevalence of basal tumors in this cluster.
+Metabolism-related expression. PSAT1 encodes an enzyme involved in serine biosynthesis. Its higher expression suggests a difference in this metabolism-related transcript, but does not establish increased serine-pathway activity or a broader metabolic shift.
 
-**Cellular metabolism:** PSAT1 participates in serine biosynthesis, a metabolic pathway that supports cellular functions including the production of molecules needed for growth. Its higher expression suggests a possible metabolic distinction between clusters.
-
-**Differentiation and tissue interactions:** PROM1, RARRES1, KRT81, and MMP7 are connected to aspects of cell identity, differentiation, or tissue remodeling. Their specific roles in this cluster require cautious interpretation.
-
-These observations suggest biological themes rather than confirmed pathway activation. No formal pathway-enrichment analysis has yet been performed.
+Cell identity and tissue interactions. PROM1, RARRES1, KRT81, and MMP7 have reported associations with cellular identity, differentiation, or tissue remodeling. Their roles in the observed cluster differences remain uncertain.
 
 ### Connection with Clinical Findings
 
-- 78.27% of patients in Cluster 1 were ER-negative.
-- 68.73% belonged to the Basal or Claudin-low molecular subtypes.
-- 82.90% of patients with available tumor-grade information had Grade 3 tumors.
-- 24.73% were HER2-positive, compared with 7.57% in Cluster 0.
-- Mean age at diagnosis was 55.76 years.
+Cluster 1 was 78.27% ER-negative, and 68.73% of its samples were classified as basal-like or claudin-low. Among samples with available tumor-grade information, 82.90% were Grade 3. HER2-positive tumors represented 24.73% of Cluster 1, compared with 7.57% of Cluster 0. Mean age at diagnosis was 55.76 years.
 
-These findings are consistent with a cluster enriched for tumors with basal-like and less differentiated characteristics, although the cluster contains multiple established molecular subtypes.
+These findings support describing Cluster 1 as enriched for ER-negative, higher-grade, and basal-like/claudin-low tumors, while recognizing that it includes several molecular subtypes (Perou et al., 2000; Sørlie et al., 2001; Curtis et al., 2012).
 
 ## 4. Comparison of Biological Processes
 
-| Biological Feature | Cluster 0 | Cluster 1 |
+| Feature | Cluster 0 | Cluster 1 |
 |---|---|---|
-| Dominant expression pattern | Luminal and estrogen-associated | Basal-like and inflammatory-associated |
-| Representative genes | ESR1, FOXA1, GATA3, TFF1 | S100A8, S100A9, GABRP, BCL11A |
-| Estrogen receptor signaling | Strongly represented | Less prominent |
-| Luminal differentiation | Strongly represented | Less prominent |
-| Inflammatory signals | Less prominent among top distinguishing genes | More prominent among top distinguishing genes |
-| Metabolic characteristics | Not specifically evaluated | PSAT1 suggests possible serine metabolism involvement |
-| Clinical associations | Predominantly ER-positive, Luminal A/B | Enriched for ER-negative, Basal/Claudin-low, Grade 3 tumors |
+| Predominant expression association | Estrogen-associated and luminal | Basal-like and inflammatory-associated |
+| Representative higher-expression genes | ESR1, FOXA1, GATA3, TFF1 | S100A8, S100A9, GABRP, BCL11A |
+| Estrogen-associated transcripts | Higher expression of several associated genes | Less prominent among the top distinguishing genes |
+| Luminal-associated transcripts | Higher expression of several associated genes | Less prominent among the top distinguishing genes |
+| Inflammatory-associated transcripts | Less prominent among the top distinguishing genes | S100A8 and S100A9 higher |
+| Metabolism-related transcript | No pathway-level conclusion | PSAT1 higher; pathway activity not assessed |
+| Main clinical pattern | Predominantly ER-positive and Luminal A/B | Enriched for ER-negative, basal-like/claudin-low, and Grade 3 tumors |
 
-These are relative interpretations of the observed gene-expression patterns, not direct measurements of biological pathway activity.
 
 ## 5. Overall Interpretation and Relevance to Patient Heterogeneity
 
-The findings suggest that unsupervised clustering of breast cancer gene-expression profiles can recover biologically meaningful patterns that correspond to established differences among breast tumors.
+The identified clusters demonstrate that variation in breast cancer gene-expression profiles corresponds to differences in established molecular and clinical characteristics. Although clinical labels were not used to construct the clusters, the resulting groups differed substantially in receptor status, tumor grade, molecular subtype distribution, and age at diagnosis.
 
-Cluster 0 predominantly reflects estrogen receptor signaling and luminal differentiation, supported by higher expression of ESR1, FOXA1, GATA3, and other estrogen-associated genes. Cluster 1 shows a contrasting pattern involving basal-like characteristics, inflammatory signals, and potential metabolic differences.
-
-These molecular distinctions align with differences in ER status, HER2 status, tumor grade, molecular subtype, and age at diagnosis. In particular, Cluster 1 contains a substantially higher proportion of Grade 3 and ER-negative tumors, whereas Cluster 0 is dominated by ER-positive and Luminal A/B tumors.
-
-The results therefore suggest that gene-expression variation captures important aspects of breast cancer heterogeneity beyond differences in individual genes. However, the two clusters are not biologically uniform, and their boundaries should not be treated as definitive disease categories.
+The results suggest that unsupervised clustering can recover broad patterns of breast cancer heterogeneity. However, the groups are not biologically uniform, and their correspondence with established subtypes should not be interpreted as the discovery of new disease categories. In addition, expression-derived molecular subtype labels do not constitute fully independent validation of expression-based clusters.
 
 ## 6. Limitations of Biological Interpretation
 
@@ -123,15 +97,17 @@ The results therefore suggest that gene-expression variation captures important 
 
 ## 7. Conclusion
 
-The analysis identified two reproducible gene-expression-based patient groups with contrasting molecular and clinical characteristics. Cluster 0 was predominantly associated with estrogen receptor signaling and luminal differentiation, whereas Cluster 1 was enriched for basal-like characteristics, inflammatory-associated genes, and higher-grade tumors.
+This exploratory analysis identified two stable gene-expression-based patient groups with contrasting clinical and molecular characteristics. Their differences largely align with established luminal and basal-like breast cancer patterns rather than indicating novel molecular subtypes. Formal differential-expression testing, pathway enrichment, independent-cohort evaluation, and clinical outcome analyses would be needed to characterize the biological and clinical relevance of these groups more comprehensively.
 
-Overall, the findings demonstrate how unsupervised learning can help characterize breast cancer patient heterogeneity and recover established biological patterns from high-dimensional gene-expression data.
+## 8. Refrences 
 
-The results should be viewed as an exploratory characterization of breast cancer heterogeneity rather than evidence of novel molecular subtypes.
+Curtis, C., et al. (2012). The genomic and transcriptomic architecture of 2,000 breast tumours reveals novel subgroups. Nature, 486(7403), 346–352. https://doi.org/10.1038/nature10983
 
-## 8. References
+Parker, J. S., et al. (2009). Supervised risk predictor of breast cancer based on intrinsic subtypes. Journal of Clinical Oncology, 27(8), 1160–1167. https://doi.org/10.1200/JCO.2008.18.1370
 
-Relevant peer-reviewed literature supporting the biological functions and breast cancer associations of the identified genes will be added after verification.
+Perou, C. M., et al. (2000). Molecular portraits of human breast tumours. Nature, 406(6797), 747–752. https://doi.org/10.1038/35021093
+
+Sørlie, T., et al. (2001). Gene expression patterns of breast carcinomas distinguish tumor subclasses with clinical implications. Proceedings of the National Academy of Sciences, 98(19), 10869–10874. https://doi.org/10.1073/pnas.191367098
 
 --------------------------------------------------------------------
 
